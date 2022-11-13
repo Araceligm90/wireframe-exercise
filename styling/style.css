@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction:  row;
+}
+
+.navbar {
+    font-size: 20px;
+    background-color: #495057;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 2rem;
+}
+
+a {
+    display: flex;
+    align-items: right;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    margin: 20px; 
+}
+
+a:hover {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    min-width: 0;
+    margin: 1rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.subbanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+ 
+.featurebanner {
+    display: flex;
+    margin: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.head {
+    margin-left: 2rem;
+    color: #000;
+    font-size: 30px;
+}
+
+.loremipsum {
+  min-width: 0;
+  width: 700px;
+  height: 400px;
+  padding-left: 20px;
+  overflow: auto;
+  scrollbar-base-color:#495057;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.button {
+    display: flex;
+    min-width: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+
+}
+
+footer {
+    height: 100px;
+    background-color: #495057;
+  }
